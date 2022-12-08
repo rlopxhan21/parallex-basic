@@ -5,6 +5,10 @@
   list-style: none;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
 }
 
@@ -145,4 +149,12 @@ footer {
   margin-top: 2rem;
   color: #fff;
   text-align: center;
+}
+
+.para {
+  padding-top: 6rem;
+}
+
+a {
+  color: #fff;
 }
