@@ -14,12 +14,17 @@ body {
 }
 
 .wrapper {
+  position: relative;
 }
 
 nav {
   background: #000;
   color: #fff;
   font-size: 1.5rem;
+
+  position: sticky;
+  top: 0;
+  left: 0;
 }
 
 .nav {
@@ -79,10 +84,22 @@ nav {
   backdrop-filter: blur(20px);
 }
 
+video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 .video h1 {
   font-size: 3rem;
   margin-bottom: 2rem;
 }
+
+/* .clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+} */
 
 .img1,
 .img2,
